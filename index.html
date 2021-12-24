@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Win10 Blue</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+
+    <main>
+        <h1>:(</h1>
+        <p>Your PC ran into a problem and needs to restart. We're just collecting some error info,
+            and then we'll restart for you.</p>
+        <p id="progress">{{progress}}% complete</p>
+    </main>
+    <figure id="description">
+        <img id="qrcode" src="img/qrcode.png" />
+        <figcaption id="qrdes">
+            For more information about this issue and possible fixes, vist the qrcode.
+            <figcaption id="contact">
+                If you call a support person, give them this info
+                <br>
+                <br>
+                What failed: APC_INDEX_MISMATCH
+                <br>
+                Stop Code: win32kfull.sys
+            </figcaption>
+        </figcaption>
+    </figure>
+    <script src="ut/jquery.min.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
